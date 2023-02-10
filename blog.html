@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/x-icon" href="./img/globe.png" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Blog- Mohamed amaan</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">@Mohamedamaan</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+        <span class="material-symbols-outlined">
+          sort
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="http://127.0.0.1:5500/"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:5500/about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:5500/timeline.html"
+                >Timeline</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:5500/projects.html"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:5500/blog.html"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:5500/contact.html"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Blogs-->
+    <div class="container blogSec">
+      <div class="row heading">
+        <div class="col-lg-12">
+          <h1>Blog</h1>
+        </div>
+      </div>
+      <div class="row mainblogSec">
+        <div class="col-lg-7 latestPost" id="latestPost">
+
+        </div>
+        <div class="col-lg-5 recentPost" id="recentPost">
+          
+        </div>
+      </div>
+      <hr />
+      <!--After Hr position-->
+      <div class="row oldPost" id="oldPost">
+        
+      </div>
+    </div>
+    <!--Footer-->
+    <div class="container footer">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <h1>Follow Me</h1>
+        </div>
+        <div class="col-lg-12">
+          <div class="d-flex justify-content-center">
+            <a
+              href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjb8Ormxej8AhULN2AKHaybAbYYABAAGgJ0bQ&ohost=www.google.com&cid=CAESbeD2TDrK_znHRWcWYI9IKLupiU6U9B3lVALbsX9G8Au2UbOP9VFja-L0_X2gRrlPL-T7wSb-c2Rd2HQd5p8j41BkryqP_epDyJDX1mA76qvIiFfTPTd9_BTs5ZxrMrgCSqT5dqykLDRo37ZYvtE&sig=AOD64_3Km0zur8ME5Um8CWuL_T_3hra2cA&q&adurl&ved=2ahUKEwi6-ePmxej8AhW3cGwGHeN6AsYQ0Qx6BAgKEAE"
+              target="_blank"
+              ><i class="fa fa-facebook-square me-2" aria-hidden="true"></i
+            ></a>
+            <a href="https://www.instagram.com/_mohamed_amaan_/" target="_blank"
+              ><i class="fa fa-instagram me-2" aria-hidden="true"></i
+            ></a>
+            <a href="https://twitter.com/" target="_blank"
+              ><i class="fa fa-twitter-square me-2" aria-hidden="true"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/mohamedamaan319/"
+              target="_blank"
+              ><i class="fa fa-linkedin-square me-2" aria-hidden="true"></i
+            ></a>
+            <a href="https://github.com/modamaan" target="_blank"
+              ><i class="fa fa-github-square me-2" aria-hidden="true"></i
+            ></a>
+            <a href="https://www.youtube.com/" target="_blank"
+              ><i class="fa fa-youtube-square me-2" aria-hidden="true"></i
+            ></a>
+          </div>
+          <div class="col-lg-12">
+            <p>Designed & <a style="color: white; text-decoration: none;" target="_blank" href="https://www.instagram.com/_mohamed_amaan_/">Built by Mohamed amaan</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Script-->
+    <script type="module" src="./js/blog.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
