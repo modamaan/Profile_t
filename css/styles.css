@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #111111;
+}
+
+.navbar{
+    background-color:#111111;
+}
+.navbar .navbar-brand{
+    opacity: 0.9;
+    color: #F5F5F7;
+    font-size: 14px;
+    font-weight: 600;
+}
+.navbar .navbar-brand:hover{
+    color: #14ceca;
+}
+.navbar .navbar-nav .nav-item a{
+    opacity: 0.9;
+    font-size: 13px;
+    color: #F5F5F7;
+    font-weight: 600;
+}
+.navbar .navbar-nav .nav-item a:hover{
+    color: #14CECA;
+}
+ 
+.landing-sec h3{
+    color: #fafafa;
+    font-size: 20px;
+    font-weight: 600;
+}
+.landing-sec{
+    height: 100vh;
+    padding-top: 150px;
+}
+
+.landing-sec h1{
+    font-size: 92px;
+    font-weight: 700;
+    color: #fafafa;
+}
+.landing-sec h1 span{
+    background-image: linear-gradient(to right, rgb(13, 138, 221), rgb(21, 215, 200));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.landing-sec p{
+    color: #a1a1a1;
+    font-size: 18px;
+    font-weight: 500;
+}
+.landing-sec .btn{
+    background-image: linear-gradient(to right, rgb(13, 138, 221), rgb(21, 215, 200));
+    color: #fafafa;
+    height: 50px;
+    width: 150px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+ 
+.aboutSec{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+
+.aboutSec h1{
+    color: #fafafa;
+    font-size: 60px;
+    font-weight: 700;
+}
+.aboutSec h3{
+    color: #14CECA;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 50px;
+}
+.aboutSec h2{
+    font-size: 30px;
+    color: #f9f9f9;
+    font-weight: 700;
+}
+
+.aboutSec p{
+    color: #f9f9f9;
+    font-size: 15px;
+    padding-top: 10px;
+    font-weight: 500;
+    padding-right: 14px;
+}
+.aboutSec table td{
+    font-size: 14px;
+    font-weight: 500;
+    color: #f9f9f9;
+}
+
+.aboutSec table td span{
+     color:rgb(21 215 200);
+     box-sizing: border-box;
+}
+.timelineSec .heading h1{
+    color: #fafafa;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.aboutSec .btn{
+    background-image: linear-gradient(to right, rgb(13, 138, 221), rgb(21, 215, 200));
+    color: #fafafa;
+    height: 50px;
+    width: 150px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.timelineSec{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+.timelineSec .content .verticleLine{
+    border-left: 1px solid #dee2e6;
+    height: 55px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.timelineSec .content .badgeEle{
+    border-radius: 100%;
+    border: 2px solid rgb(21, 215, 200);
+    height: 25px;
+    width: 25px;
+}
+.timelineSec .content .card{
+    background-color: #1a1a1a;
+    margin-left: -50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.timelineSec .content .card h5{
+    color: #15d7c8;
+    font-size: 15px;
+}
+.timelineSec .content .card h4{
+    color: #fafafa;
+    font-size: 15px;
+}
+.timelineSec .content .card p{
+    color: #6c757d;
+    font-size: 16px;
+}
+/* -----project section---- */
+.projectSec{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+.projectSec .heading h1{
+    color: #fafafa;
+    font-size: 60px;
+    font-weight: 700;
+}
+.projectSec .content .card{
+    background-color: #1a1a1a;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+.projectSec .content .card h5{
+    color: #15d7c8;
+    font-size: 15px;
+}
+.projectSec .content .card i{
+    font-size: 15px;
+    color: #fafafa;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.projectSec .content .card i:hover{
+    color: #15d7c8;
+}
+.projectSec .content .card h3{
+    font-size: 24px;
+    color: #fafafa;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.projectSec .content .card p{
+    font-size: 16px;
+    color: #818181;
+    font-weight: 500;
+}
+.projectSec .content .card .badge{
+    background-color: #15d7c8;
+    color: #fafafa;
+    margin-right: 8px;
+}
+.projectSec .content .card .badge:hover{
+   background-color: #fafafa;
+   color:black ;
+}
+/* -----project section END---- */
+
+/* -----Blog section---- */
+
+.blogSec{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+.blogSec .heading h1{
+    color: #fafafa;
+    font-size: 60px;
+    font-weight: 700;
+}
+.blogSec .mainblogSec{
+    padding-top: 50px;
+}
+.blogSec  .img-hover-zoom {
+    height:max-content;
+    overflow: hidden;
+}
+.blogSec .mainblogSec a, .blogSec .oldPost a,.blogDetailed .recentPost  .recentpostDetails a {
+    text-decoration: none;
+}
+.blogSec  .img-hover-zoom img {
+    transition: transform .5s ease;
+}
+.blogSec  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+}
+.blogSec .mainblogSec .latestPost h5,.blogSec .oldPost h5 {
+    color: #0e8edd;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.blogSec .mainblogSec .latestPost h1,.blogSec  .oldPost h1{
+    color: #fafafa;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+.blogSec .mainblogSec .latestPost p,.blogSec  .oldPost p{
+    color: #fafafa;
+    font-size: 15px;
+    opacity: 0.8;
+    padding-bottom: 10px;
+}
+.blogSec .mainblogSec .latestPost .authorDetails img, .blogSec  .oldPost .authorDetails img{
+  width: 42px;
+  height: 42px;
+  margin-right: 20px;
+}
+
+.blogSec .mainblogSec .latestPost .authorDetails h3, .blogSec .oldPost .authorDetails h3{
+    color: #fafafa;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-top: 10px;   
+}
+.blogSec .mainblogSec .recentPost .d-flex, .blogDetailed .recentPost .d-flex{
+    padding-bottom: 50px;
+}
+.blogSec .mainblogSec .recentPost .recentpostDetails, .blogDetailed .recentPost .recentpostDetails{
+    padding-left: 20px;
+}
+.blogSec .mainblogSec .recentPost .recentpostDetails h5, .blogDetailed .recentPost  .recentpostDetails h5{
+    color: #0e8edd;
+    font-size: 15px;
+}
+.blogSec .mainblogSec .recentPost .recentpostDetails h1, .blogDetailed .recentPost .recentpostDetails h1{
+    font-size: 18px;
+    color: #fafafa;
+    font-weight: 600;
+}
+.blogSec .mainblogSec .recentPost .recentpostDetails p, .blogDetailed .recentPost .recentpostDetails p{
+    font-size: 12px;
+    color: #fafafa;
+    opacity: 0.8;
+}
+.blogSec .mainblogSec .recentPost .recentpostDetails h3, .blogDetailed .recentPost .recentpostDetails h3{
+    font-size: 12px;
+    color: #fafafa;
+    font-weight: 600;
+}
+.blogSec hr{
+    border: 1px solid #fafafa;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.blogDetailed .card{
+    background-color: #1a1a1a;
+}
+.blogDetailed .card .card-body{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+.blogDetailed .card .authorDetails img{
+    width: 42px;
+    height: 42px;
+    margin-right: 20px;
+}
+.blogDetailed .card .authorDetails h3{
+    color: #fafafa;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-top: 10px;   
+}
+.blogDetailed .card .card-body .title h1{
+    color: #fafafa;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 20px;
+}
+.blogDetailed .card .card-body .category h5{
+    color: #0e8edd;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.blogDetailed .card .card-body .content{
+    margin-top: 30px;
+}
+.blogDetailed .card .card-body .content p{
+    color: #f9f9f9;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    opacity: 0.9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.blogDetailed .card .card-body .content h2{
+    color: #fafafa;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* -----Contact me section Start---- */
+.contactSec{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+
+.contactSec h1{
+    color: #fafafa;
+    font-size: 60px;
+    font-weight: 700;
+}
+.contactSec .formSec form{
+    margin-top: 50px;
+}
+.contactSec .formSec .form-control{
+    margin-bottom: 20px;
+}
+.contactSec .formSec form input{
+    color: #fafafa;
+    background-color: transparent;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+.contactSec .formSec form input::placeholder, .contactSec .formSec form textarea::placeholder{
+    color: #fafafa;
+    opacity: 0.5;
+}
+.contactSec .formSec form input:focus,.contactSec .formSec form textarea:focus{
+    border: 1px solid #0e8edd;
+}
+.contactSec .formSec form textarea{
+    color: #fafafa;
+    background-color: transparent;
+    height: 150px;
+    box-shadow: none;
+    border-radius: 10px;
+}
+.contactSec .formSec form button{
+    width: 100%;
+    height: 50px;
+    background-image:  linear-gradient(to right, rgb(13, 138, 221), rgb(21, 215, 200));
+    font-weight: 600;
+}
+
+.contactSec .formSec form .success{
+    color: green;
+}
+.contactSec .formSec form .fail{
+    color: red;
+}
+.contactSec .formSec form .outputMessage{
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+/* -----Contact me section End---- */
+
+/* -----Blog section END---- */
+.footer h1{
+    color: #f9f9f9;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.footer i{
+    color: #a1a1a1;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer i:hover{
+    color: #f9f9f9;
+}
+.footer p{
+    color: #f9f9f9;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+@media (max-width:991px){
+    .navbar button:focus{
+        box-shadow: none;
+    }
+    .navbar button .material-symbols-outlined {
+        font-size: 40px;
+        color: #fafafa;
+        outline: none;
+    }
+    .landing-sec h3{
+        font-size: 18px;
+    }
+    .landing-sec h1{
+        font-size: 72px;
+    }
+    .landing-sec p{
+        font-size: 10px;
+    }
+    .blogSec .mainblogSec .recentPost{
+        padding-top: 50px;
+    }
+    .blogSec .oldPost .oldPosts{
+        margin-bottom: 30px;
+    }
+    .blogDetailed .recentPost{
+        margin-top: 50px;
+    }
+}
+/*----- about responsive -------*/
+@media (max-width: 575px){
+    .aboutSec{
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 20px;
+    }
+    .timelineSec{
+        padding-left: 20px;
+    }
+    .timelineSec .content .verticleLine{
+        display: none;
+    }
+    .timelineSec .content .badgeEle{
+        display: none;
+    }
+    .timelineSec .content .card{
+       margin-left: 10px;
+       margin-right: 10px;
+    }
+    .timelineSec .content .col-lg-11 {
+        padding-left: 1px;
+    }
+    .projectSec{
+        padding-left: 16px;
+    }
+    .projectSec .heading h1{
+        font-size: 49px;
+    }
+    .blogSec{
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 20px;
+    }
+    .blogSec .mainblogSec .latestPost h1,
+    .blogSec .oldPost h1{
+        font-size: 30px;
+    }
+    .blogSec .mainblogSec .latestPost .authorDetails img,
+    .blogSec .oldPost .authorDetails img{
+        width: 10%;
+    }
+    .blogDetailed .card .card-body{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .blogDetailed .card .card-body .authorDetails h3{
+        font-size: 10px;
+    }
+    .blogDetailed .card .title h1{
+        font-size: 30px;
+    }
+    .contactSec{
+        padding-left: 15px;
+    }
+    .contactSec h1{
+        font-size: 49px;
+    }
+}
+
+/*----- about responsive End -------*/
+@media (max-width: 489px){
+    .landing-sec h3{
+        font-size: 15px;
+    }
+    .landing-sec h1{
+        font-size: 42px;
+    }
+    .landing-sec p{
+        font-size: 13px;
+    }
+    .footer i{
+        font-size: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .timelineSec .heading h1{
+        font-size: 49px;
+    }
+}
+@media (max-width: 320px){
+    .footer i{
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    .timelineSec .heading h1{
+        font-size: 49px;
+    }
+    .aboutSec h1{
+        font-size: 49px; 
+    }
+    .contactSec h1{
+        font-size: 44px;
+    }
+}
+@media (max-width: 320px){
+    .timelineSec .content .card{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+@media (max-width: 375px){
+    .aboutSec h1{
+        font-size: 49px;
+    }
+}
