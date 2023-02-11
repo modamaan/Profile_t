@@ -17,7 +17,7 @@ import data from "./blogData.js";
     </p>
     <div class="d-flex authorDetails">
       <img
-        src="http://127.0.0.1:5500/img/1664894102050.jfif"
+        src="https://modamaan.github.io/Profile_t/img/1664894102050.jfif"
         class="img-fluid rounded-circle img-thumbnail"
         alt=""
       />
@@ -75,7 +75,7 @@ const oldpostContainer = document.getElementById("oldPost");
           </p>
           <div class="d-flex authorDetails">
             <img
-              src="http://127.0.0.1:5500/img/1664894102050.jfif"
+              src="https://modamaan.github.io/Profile_t/img/1664894102050.jfif"
               class="img-fluid rounded-circle img-thumbnail"
               alt=""
             />
